@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/cardViewImage"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            app:riv_corner_radius="10dp"
+            android:contentDescription="@string/news_image" />
+        <TextView
+            android:id="@+id/cardViewHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardViewImage"
+            android:maxLines="3"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:text="@string/heading"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cardViewEditor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardViewHeading"
+            android:layout_marginTop="20dp"
+            android:text="@string/name"
+            android:textColor="#999999"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/cardViewBookmarks"
+            android:src="@drawable/ic_baseline_bookmark_border_24"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toStartOf="@+id/cardViewFavourite"
+            android:layout_below="@+id/cardViewHeading"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/bookmark_button" />
+        <ImageView
+            android:id="@+id/cardViewFavourite"
+            android:src="@drawable/ic_baseline_favorite_border_24"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toStartOf="@+id/cardViewShare"
+            android:layout_below="@+id/cardViewHeading"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/favourite_button" />
+        <ImageView
+            android:id="@+id/cardViewShare"
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/cardViewHeading"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/share_button" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

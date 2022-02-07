@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">rtkl</string>
+    <string name="heading">Heading</string>
+    <string name="name">name</string>
+    <string name="share_button">share button</string>
+    <string name="favourite_button">favourite button</string>
+    <string name="bookmark_button">Bookmark Button</string>
+    <string name="news_image">News Image</string>
+</resources>
