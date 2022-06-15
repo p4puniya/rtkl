@@ -36,30 +36,6 @@ class MainActivity : AppCompatActivity() {
             getNews()
     }
 
-    //Append new news to the current list
-/*
-    private fun appendNews(news: List<Article>) {
-        val current = ArrayList(articles)
-        current.addAll(news)
-        this.articles = current
-    }
-
-    fun nextPage() {
-        if ((newslistScrollPosition + 1 >= page_size * pageNum)) {
-
-        }
-    }
-
-    private fun incrementPageNumber() {
-        pageNum = pageNum + 1
-    }
-
-    fun onChangeScrollPostion(position: Int) {
-        newslistScrollPosition = position
-    }
-
-    //--end--
-    */
     private fun getNews() {
         val news: Call<News> = NewsService.newsInstance.getHeadlines("in", 1)
         news.enqueue(object : Callback<News> {
