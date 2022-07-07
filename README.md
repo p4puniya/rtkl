@@ -1,4 +1,4 @@
-# rtkl
+# RTKL
 News Articles Daily
 
 RTKL is a simple news app 🗞️ which uses [NewsAPI](https://newsapi.org/) to fetch top news headlines from the API. The main Aim for this app was for me to learn the API Calls.
@@ -9,7 +9,7 @@ The codebase focuses 👓 on following key things:
 - Offline first ✈️
 
 The idea is to keep the app super simple while learning the basic functionalities of API calling and using database.<br/>
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://github.com/p4puniya/rtkl/blob/master/Rtkl%20gif.gif" width="800" height="500" />
 
 ## Libraries and tools 🛠
 
