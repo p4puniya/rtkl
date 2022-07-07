@@ -8,8 +8,8 @@ The codebase focuses 👓 on following key things:
 - Kotlin + Coroutines
 - Offline first ✈️
 
-The idea is to keep the app super simple while learning the basic functionalities of API calling and using database.
-
+The idea is to keep the app super simple while learning the basic functionalities of API calling and using database.<br/>
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 
 ## Libraries and tools 🛠
 
